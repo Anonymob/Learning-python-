@@ -1,0 +1,9 @@
+scores = [55,64,765,234,543,345,654,2,34,5436,564,345,4545,567,6867,3453,6457,5634,5765,7568,7856,57476,87867,9869,89,6789,34223,23443]
+print(max(scores))
+print(sum(scores))
+
+max = 0
+for score in scores:
+    if max<score:
+        max = score
+print(max)
